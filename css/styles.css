@@ -1,0 +1,221 @@
+/*
+Colors	Paper Source Colorscope: Antique Gold, Aubergine, Beet, Black, Dahlia, 
+		Hydrangea, Night, Papaya, Paper Bag, Peacock, Persimmon, Rose, Spruce
+Fonts	Google Fonts: Oswald, Special Elite
+Images	Unsplash: Credited
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	line-height: 2;
+}
+
+.main-area {
+	background-color: ;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Special Elite', cursive;
+	font-size: 200%;	
+	font-weight: normal;
+	color: rgb(255,255,255);
+}
+
+.section {
+	padding: 5px 20px;
+}
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 768px;
+}
+
+@media screen and (min-width: 1280px) {
+	body {
+		font-size: 17px;
+	}
+
+	.container {
+		max-width: 1200px;
+	}
+}
+
+.hero-area {
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	background-image: url(../images/patrick-fore-0gkw_9fy0eQ-unsplash.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-area h2 {
+	margin: -20px 0;
+	font-size: 150%;
+	font-weight: normal;
+	color: rgb(255,255,255);
+}
+
+.hero-area p {
+	font-size: 120%;
+	font-weight: normal;
+	color: rgb(255,255,255);
+}
+
+.greet {
+	padding: 15px 0;
+}
+
+.content-area {
+	padding-top: 0;
+	padding-bottom: 20px;
+	background-color: rgb(255,255,255);
+}
+
+.first-row h3 {
+	margin: 20px 0 0 0;
+	font-size: 150%;
+	font-weight: normal;
+	text-align: center;
+}
+
+.first-column, .second-column {
+	padding-right: 40px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.third-column {
+	width: 33%;
+	box-sizing: border-box;
+}
+
+.first-column h4, .second-column h4, .third-column h4 {
+	margin-bottom: -20px;
+	padding-top: 10px;
+	font-size: 150%;
+	font-weight: normal;
+	text-align: right;
+	border-top: 2px dotted rgba(34,31,32,0.5);
+}
+
+.subhead {
+	color: ;
+}
+
+.first-column p, .second-column p, .third-column p {
+	font-size: 110%;
+	font-weight: normal;
+	text-align: right;
+	color: rgb(34,31,32);
+}
+
+footer h5 {
+	padding: 0 0 10px 0;
+	font-size: 100%;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+.row {
+	margin-right: -20px;
+}
+
+.col {
+	padding-right: 20px;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.col-xs-11 {width: 91.662%;}
+.col-xs-10 {width: 83.332%;}
+.col-xs-9 {width: 75%;}
+.col-xs-8 {width: 66.662%;}
+.col-xs-7 {width: 58.331%;}
+.col-xs-6 {width: 50%;}
+.col-xs-5 {width: 41.662%;}
+.col-xs-4 {width: 33.332%;}
+.col-xs-3 {width: 25%;}
+.col-xs-2 {width: 16.662%;}
+.col-xs-1 {width: 8.332%;}
+
+@media screen and (min-width: 768px) {
+	.row {
+		margin-right: -40px;
+	}
+
+	.col {
+		padding-right: 40px;
+	}
+
+	.col-sm-11 {width: 91.662%;}
+	.col-sm-10 {width: 83.332%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-8 {width: 66.662%;}
+	.col-sm-7 {width: 58.331%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-5 {width: 41.662%;}
+	.col-sm-4 {width: 33.332%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-2 {width: 16.662%;}
+	.col-sm-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1024px) {
+	.col-md-11 {width: 91.662%;}
+	.col-md-10 {width: 83.332%;}
+	.col-md-9 {width: 75%;}
+	.col-md-8 {width: 66.662%;}
+	.col-md-7 {width: 58.331%;}
+	.col-md-6 {width: 50%;}
+	.col-md-5 {width: 41.662%;}
+	.col-md-4 {width: 33.332%;}
+	.col-md-3 {width: 25%;}
+	.col-md-2 {width: 16.662%;}
+	.col-md-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1280px) {
+	.col-lg-11 {width: 91.662%;}
+	.col-lg-10 {width: 83.332%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-8 {width: 66.662%;}
+	.col-lg-7 {width: 58.331%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-5 {width: 41.662%;}
+	.col-lg-4 {width: 33.332%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-2 {width: 16.662%;}
+	.col-lg-1 {width: 8.332%;}
+}
+
+.fix {
+	clear: both;
+}
+
+.row:before, 
+.row:after,
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.row:after,
+.group:after {
+	clear: both;
+}
+
+.row,
+.group {
+	zoom: 1;
+}
