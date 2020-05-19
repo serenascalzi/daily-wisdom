@@ -19,6 +19,21 @@ $(document).ready(function() {
         '&ldquo;Never regret. If it&rsquo;s good, it&rsquo;s wonderful. If it&rsquo;s bad, it&rsquo;s experience.&rdquo; <br /> &mdash;Eleanor Hibbert',
         '&ldquo;I think you should take your job seriously, but not yourself &ndash; that is the best combination.&rdquo; <br /> &mdash;Judi Dench',
         '&ldquo;The important thing is not what they think of me, but what I think of them.&rdquo; <br /> &mdash;Queen Victoria',
+        '&ldquo;I want to tell any young girl out there who&rsquo;s a geek, I was a really serious geek in high school. It works out.&rdquo; <br /> &mdash;Sheryl Sandberg',
+        '&ldquo;Life is a succession of lessons which must be lived to be understood.&rdquo; <br /> &mdash;Helen Keller',
+        '&ldquo;Everyone&rsquo;s dream can come true if you just stick to it and work hard.&rdquo; <br /> &mdash;Serena Williams',
+        '&ldquo;I don&rsquo;t care what is written about me so long as it isn&rsquo;t true.&rdquo; <br /> &mdash;Dorothy Parker',
+        '&ldquo;Each person must live their life as a model for others.&rdquo; <br /> &mdash;Rosa Parks',
+        '&ldquo;My fears came true: people called me fat and hideous, and I lived. And now I keep living.&rdquo; <br /> &mdash;Lena Dunham',
+        '&ldquo;I know I have the body but of a weak and feeble woman; but I have the heart and stomach of a king, and of a king of England too.&rdquo; <br /> &mdash;Queen Elizabeth I',
+        '&ldquo;You don&rsquo;t get something for nothing and you have to work hard for what you want in life.&rdquo; <br /> &mdash;Sarah Storey',
+        '&ldquo;If you don&rsquo;t like something, change it. If you can&rsquo;t change it, change your attitude. Don&rsquo;t complain.&rdquo; <br /> &mdash;Maya Angelou',
+        '&ldquo;I would venture to guess that Anon, who wrote so many poems without signing them, was often a woman.&rdquo; <br /> &mdash;Virginia Woolf',
+        '&ldquo;You&rsquo;re only young once, but you can be immature forever.&rdquo; <br /> &mdash;Germaine Greer',
+        '&ldquo;Above all, be the heroine of your life, not the victim.&rdquo; <br /> &mdash;Nora Ephron',
+        '&ldquo;The most common way people give up their power is by thinking they don&rsquo;t have any.&rdquo; <br /> &mdash;Alice Walker',
+        '&ldquo;Every man I meet wants to protect me. I can&rsquo;t figure out what from.&rdquo; <br /> &mdash;Mae West',
+        '&ldquo;Life is either a daring adventure or nothing.&rdquo; <br /> &mdash;Helen Keller',
     ]
 
     let feministQuotes = feministArray.sort(function(a,b) {
