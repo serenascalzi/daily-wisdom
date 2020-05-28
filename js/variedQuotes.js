@@ -1,6 +1,5 @@
 $(document).ready(function() {
     let variedArray = [
-		// January Quotes
         '&ldquo;I think in terms of the day&rsquo;s resolutions, not the years&rsquo;.&rdquo; <br /> &mdash;Henry Moore',
         '&ldquo;The sweetest of all sounds is praise.&rdquo; <br /> &mdash;Xenophon',
         '&ldquo;We must be willing to let go of the life we have planned, so as to have the life that is waiting for us.&rdquo; <br /> &mdash;E. M. Forster',
@@ -32,7 +31,6 @@ $(document).ready(function() {
         '&ldquo;Music is moonlight in the gloomy night of life.&rdquo; <br /> &mdash;Jean Paul',
         '&ldquo;A man who gives his children habits of industry provides for them better than by giving them fortune.&rdquo; <br /> &mdash;Richard Whately',
         '&ldquo;We must make the best of those ills which cannot be avoided.&rdquo; <br /> &mdash;Clarence Day',
-        // February Quotes
         '&ldquo;Every failure is a step to success.&rdquo; <br /> &mdash;William Whewell',
         '&ldquo;Kites rise highest against the wind &ndash; not with it.&rdquo; <br /> &mdash;Winston Churchill',
         '&ldquo;When your work speaks for itself, don&rsquo;t interrupt.&rdquo; <br /> &mdash;Henry J. Kaiser',
@@ -62,7 +60,6 @@ $(document).ready(function() {
         '&ldquo;Time passes irrevocably.&rdquo; <br /> &mdash;Virgil',
         '&ldquo;You can never plan the future by the past.&rdquo; <br /> &mdash;Edmund Burke',
         '&ldquo;You grow up the day you have the first real laugh at yourself.&rdquo; <br /> &mdash;Ethel Barrymore',
-        // March Quotes
         '&ldquo;Everything&rsquo;s got a moral, if only you can find it.&rdquo; <br /> &mdash;Lewis Carroll',
         '&ldquo;The whole secret of life is to be interested in one thing profoundly and in a thousand things well.&rdquo; <br /> &mdash;Horace Walpole',
         '&ldquo;Everything has been figured out, expect how to live.&rdquo; <br /> &mdash;Jean-Paul Sartre',
@@ -94,7 +91,6 @@ $(document).ready(function() {
         '&ldquo;The more things change, the more they are the same.&rdquo; <br /> &mdash;Alphonse Karr',
         '&ldquo;Words are, of course, the most powerful drug used by mankind.&rdquo; <br /> &mdash;Rudyard Kipling',
         '&ldquo;Tact is the ability to describe others as they see themselves.&rdquo; <br /> &mdash;Abraham Lincoln',
-        // April Quotes
         '&ldquo;Here cometh April again, and as far as I can see the world hath more fools in it than ever.&rdquo; <br /> &mdash;Charles Lamb',
         '&ldquo;Worry never robs tomorrow of its sorrow, it only saps today of its joy.&rdquo; <br /> &mdash;Leo Buscaglia',
         '&ldquo;The wisdom of the wise and the experience of the ages are perpetuated by quotations.&rdquo; <br /> &mdash;Benjamin Disraeli',
@@ -125,14 +121,33 @@ $(document).ready(function() {
         '&ldquo;How little do they see what really is, who frame their hasty judgment upon that which seems.&rdquo; <br /> &mdash;Daniel Webster',
         '&ldquo;I imagine that yes is the only living thing.&rdquo; <br /> &mdash;e. e. cummings',
         '&ldquo;People seldom refuse help, if one offers it in the right way.&rdquo; <br /> &mdash;A. C. Benson',
-        // May Quotes
-        // June Quotes
-        // July Quotes
-        // August Quotes
-        // September Quotes
-        // October Quotes
-        // November Quotes
-        // December Quotes
+        '&ldquo;Forgiveness is a funny thing. It warms the heart and cools the sting.&rdquo; <br /> &mdash;William Arthur Ward',
+        '&ldquo;I hear, I know. I see, I remember. I do, I understand.&rdquo; <br /> &mdash;Confucius',
+        '&ldquo;When I pray, coincidences happen, and when I don&rsquo;t, they don&rsquo;t.&rdquo; <br /> &mdash;William Temple',
+        '&ldquo;More law, less justice.&rdquo; <br /> &mdash;Marcus Tullius Cicero',
+        '&ldquo;Even death is not to be feared by one who has lived wisely.&rdquo; <br /> &mdash;Buddha',
+        '&ldquo;It would not be possible to praise nurses too highly.&rdquo; <br /> &mdash;Stephen Ambrose',
+        '&ldquo;The Soul is the voice of the body&rsquo;s interests.&rdquo; <br /> &mdash;George Santayana',
+        '&ldquo;All great achievements require time.&rdquo; <br /> &mdash;Maya Angelou',
+        '&ldquo;Glory is fleeting, but obscurity is forever.&rdquo; <br /> &mdash;Napoleon Bonaparte',
+        '&ldquo;The love of a mother is the veil of a softer light between the heart and the heavenly Father.&rdquo; <br /> &mdash;Samuel Taylor Coleridge',
+        '&ldquo;Necessity dispenseth with decorum.&rdquo; <br /> &mdash;Thomas Carlyle',
+        '&ldquo;He who angers you conquers you.&rdquo; <br /> &mdash;Elizabeth Kenny',
+        '&ldquo;Everything popular is wrong.&rdquo; <br /> &mdash;Oscar Wilde',
+        '&ldquo;Real happiness is cheap enough, yet how dearly we pay for its counterfeit.&rdquo; <br /> &mdash;Hosea Ballou',
+        '&ldquo;It is not the mountain we conquer but ourselves.&rdquo; <br /> &mdash;Edmund Hillary',
+        '&ldquo;Words are often seen hunting for an idea, but ideas are never seen hunting for words.&rdquo; <br /> &mdash;Josh Billings',
+        '&ldquo;Trouble shared is trouble halved.&rdquo; <br /> &mdash;Lee Iacocca',
+        '&ldquo;If you can&rsquo;t stand the heat, get out of the kitchen.&rdquo; <br /> &mdash;Harry S. Truman',
+        '&ldquo;Nothing makes one feel so strong as a call for help.&rdquo; <br /> &mdash;Pope Paul VI',
+        '&ldquo;Fear is the mother of foresight.&rdquo; <br /> &mdash;Thomas Hardy',
+        '&ldquo;We are all gifted. That is our inheritance.&rdquo; <br /> &mdash;Ethel Waters',
+        '&ldquo;It&rsquo;s easy to make a buck. It&rsquo;s a lot tougher to make a difference.&rdquo; <br /> &mdash;Tom Brokaw',
+        '&ldquo;Time is but the stream I go a-fishing in.&rdquo; <br /> &mdash;Henry David Thoreau',
+        '&ldquo;Either move or be moved.&rdquo; <br /> &mdash;Ezra Pound',
+        '&ldquo;You must be the change you wish to see in the world.&rdquo; <br /> &mdash;Mahatma Gandhi',
+        '&ldquo;Courage is fear holding on a minute longer.&rdquo; <br /> &mdash;George S. Patton',
+        '&ldquo;A friend may well be reckoned the masterpiece of nature.&rdquo; <br /> &mdash;Ralph Waldo Emerson'
     ]
 
     let variedQuotes = variedArray.sort(function(a,b) {
