@@ -12,7 +12,7 @@ $(document).ready(function() {
         '&ldquo;The control and understanding of our personal fears is one of the most important undertakings of our lives.&rdquo; <br /> &mdash;Helen Mirren',
         '&ldquo;If I waited for perfection&hellip;I would never write a word.&rdquo; <br /> &mdash;Margaret Atwood',
         '&ldquo;Women are the largest untapped reservoir of talent in the world.&rdquo; <br /> &mdash;Hillary Clinton',
-        '&ldquo;Life appears to me too short to be spent in nursing animosity, or registering wrongs.&rdquo; <br /> &mdash;Charlotte Bronte;',
+        '&ldquo;Life appears to me too short to be spent in nursing animosity, or registering wrongs.&rdquo; <br /> &mdash;Charlotte Bronte',
         '&ldquo;Never regret. If it&rsquo;s good, it&rsquo;s wonderful. If it&rsquo;s bad, it&rsquo;s experience.&rdquo; <br /> &mdash;Eleanor Hibbert',
         '&ldquo;I think you should take your job seriously, but not yourself &ndash; that is the best combination.&rdquo; <br /> &mdash;Judi Dench',
         '&ldquo;The important thing is not what they think of me, but what I think of them.&rdquo; <br /> &mdash;Queen Victoria',
