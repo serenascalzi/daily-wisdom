@@ -1,6 +1,5 @@
 $(document).ready(function() {
     let loveArray = [
-		// January Quotes
         '&ldquo;The giving of love is an education in itself.&rdquo; <br /> &mdash;Eleanor Roosevelt',
         '&ldquo;Dear Lord, I&rsquo;m so grateful I&rsquo;m still loved.&rdquo; <br /> &mdash;Vivien Leigh',
         '&ldquo;Love means to commit yourself without guarantee.&rdquo; <br /> &mdash;Anne Campbell',
@@ -32,7 +31,6 @@ $(document).ready(function() {
         '&ldquo;At the touch of love everyone becomes a poet.&rdquo; <br /> &mdash;Plato',
         '&ldquo;Accustom yourself continually to make many acts of love, for they enkindle and melt the soul.&rdquo; <br /> &mdash;Saint Teresa of Avila',
         '&ldquo;I was adored once too.&rdquo; <br /> &mdash;William Shakespeare',
-        // February Quotes
         '&ldquo;Love implies anger. The man who is angered by nothing cares about nothing.&rdquo; <br /> &mdash;Edward Abbey',
         '&ldquo;I wonder what fool it was that first invented kissing.&rdquo; <br /> &mdash;Jonathan Swift',
         '&ldquo;Gestures, in love, are incomparably more attractive, effective and valuable than words.&rdquo; <br /> &mdash;Francois Rabelais',
@@ -62,7 +60,6 @@ $(document).ready(function() {
         '&ldquo;I think you have to pay for love with bitter tears.&rdquo; <br /> &mdash;Edith Piaf',
         '&ldquo;Try as you will, you cannot annihilate that eternal relic of the human heart, love.&rdquo; <br /> &mdash;Victor Hugo',
         '&ldquo;Love is the flower you&rsquo;ve got to let grow.&rdquo; <br /> &mdash;John Lennon',
-        // March Quotes
         '&ldquo;People who throw kisses are hopelessly lazy.&rdquo; <br /> &mdash;Bob Hope',
         '&ldquo;Who, being loved, is poor?&rdquo; <br /> &mdash;Oscar Wilde',
         '&ldquo;We waste time looking for the perfect lover, instead of creating the perfect love.&rdquo; <br /> &mdash;Tom Robbins',
@@ -94,7 +91,6 @@ $(document).ready(function() {
         '&ldquo;Love is the power to see similarity in the dissimilar.&rdquo; <br /> &mdash;Theodor W. Adorno',
         '&ldquo;Love is more pleasant than marriage for the same reason that novels are more amusing than history.&rdquo; <br /> &mdash;Nicolas Chamfort',
         '&ldquo;Love is supreme and unconditional; like is nice but limited.&rdquo; <br /> &mdash;Duke Ellington',
-        // April Quotes
         '&ldquo;It is best to love wisely, no doubt; but to love foolishly is better than not to be able to love at all.&rdquo; <br /> &mdash;William Makepeace Thackeray',
         '&ldquo;This love is silent.&rdquo; <br /> &mdash;T. S. Eliot',
         '&ldquo;We always love those who admire us, but we do not always love those whom we admire.&rdquo; <br /> &mdash;Francois de La Rochefoucauld',
@@ -125,14 +121,33 @@ $(document).ready(function() {
         '&ldquo;When we are in love we seem to ourselves quite different from what we were before.&rdquo; <br /> &mdash;Blaise Pascal',
         '&ldquo;Love is the beauty of the soul.&rdquo; <br /> &mdash;Saint Augustine',
         '&ldquo;Faith is love taking the form of aspiration.&rdquo; <br /> &mdash;William Ellery Channing',
-        // May Quotes
-        // June Quotes
-        // July Quotes
-        // August Quotes
-        // September Quotes
-        // October Quotes
-        // November Quotes
-        // December Quotes
+        '&ldquo;Morning without you is a dwindled dawn.&rdquo; <br /> &mdash;Emily Dickinson',
+        '&ldquo;Life without love is like a tree without blossoms or fruit.&rdquo; <br /> &mdash;Khalil Gibran',
+        '&ldquo;Joy is prayer; joy is strength: joy is love; joy is a net of love by which you can catch souls.&rdquo; <br /> &mdash;Mother Teresa',
+        '&ldquo;Follow love and it will flee, flee love and it will follow thee.&rdquo; <br /> &mdash;John Gay',
+        '&ldquo;Each time you love, love as deeply as if it were forever.&rdquo; <br /> &mdash;Audre Lorde',
+        '&ldquo;Care is a state in which something does matter; it is the source of human tenderness.&rdquo; <br /> &mdash;Rollo May',
+        '&ldquo;Love consists in this, that two solitudes protect and touch and greet each other.&rdquo; <br /> &mdash;Rainer Maria Rilke',
+        '&ldquo;Love is friendship set on fire.&rdquo; <br /> &mdash;Jeremy Taylor',
+        '&ldquo;Your words are my food, your breath my wine. You are everything to me.&rdquo; <br /> &mdash;Sarah Bernhardt',
+        '&ldquo;There is a woman at the beginning of all great things.&rdquo; <br /> &mdash;Alphonse de Lamartine',
+        '&ldquo;Love begins by taking care of the closest ones &ndash; the ones at home.&rdquo; <br /> &mdash;Mother Teresa',
+        '&ldquo;Jealousy contains more of self-love than of love.&rdquo; <br /> &mdash;Francois de La Rochefoucauld',
+        '&ldquo;The most important thing a father can do for his children is to love their mother.&rdquo; <br /> &mdash;Theodore Hesburgh',
+        '&ldquo;It is impossible to repent of love. The sin of love does not exist.&rdquo; <br /> &mdash;Muriel Spark',
+        '&ldquo;There is only one real deprivation&hellip; and that is not to be able to give one&rsquo;s gifts to those one loves most.&rdquo; <br /> &mdash;May Sarton',
+        '&ldquo;Love is an energy which exists of itself. It is its own value.&rdquo; <br /> &mdash;Thornton Wilder',
+        '&ldquo;Love and dignity cannot share the same abode.&rdquo; <br /> &mdash;Ovid',
+        '&ldquo;Now a soft kiss &ndash; Aye, by that kiss, I vow an endless bliss.&rdquo; <br /> &mdash;John Keats',
+        '&ldquo;Hell, madam, is to love no longer.&rdquo; <br /> &mdash;Georges Bernanos',
+        '&ldquo;It is impossible to love and to be wise.&rdquo; <br /> &mdash;Francis Bacon',
+        '&ldquo;Love is the outreach of self toward completion.&rdquo; <br /> &mdash;Ralph W. Sockman',
+        '&ldquo;What is love? It is the morning and the evening star.&rdquo; <br /> &mdash;Sinclair Lewis',
+        '&ldquo;The fate of love is that it always seems too little or too much.&rdquo; <br /> &mdash;Amelia Barr',
+        '&ldquo;The love of our private friends is the only preparatory exercise for the love of all men.&rdquo; <br /> &mdash;John Henry Newman',
+        '&ldquo;Say what you will, &rsquo;tis better to be left than never to have been loved.&rdquo; <br /> &mdash;William Congreve',
+        '&ldquo;When love is at its best, one loves so much that he cannot forget.&rdquo; <br /> &mdash;Helen Hunt Jackson',
+        '&ldquo;One does not fall in love; one grows into love, and love grows in him.&rdquo; <br /> &mdash;Karl A. Menninger'
     ]
 
     let loveQuotes = loveArray.sort(function(a,b) {
